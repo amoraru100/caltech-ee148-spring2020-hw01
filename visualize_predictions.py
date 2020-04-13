@@ -31,13 +31,13 @@ def add_bounding_boxes(I, bounding_boxes):
 path = os.getcwd()
 
 # set the path to the downloaded data: 
-data_path = path + '\\data\\RedLights2011_Medium'
+data_path = 'C:\\Users\\amora\\Documents\\Caltech\\EE 148\\HW1\\data\\RedLights2011_Medium'
 
 # set the path to the predictions: 
-preds_path = path + '\\data\\hw01_preds' 
+preds_path = path + '\\hw01_preds' 
 
 # set the path to the prediction visualizations:
-preds_visuals_path = path + '\\data\\hw01_preds_visuals\\'
+preds_visuals_path = 'C:\\Users\\amora\\Documents\\Caltech\\EE 148\\HW1\\data\\hw01_preds_visuals'
 
 with open(preds_path + '\\preds.json') as f:
     preds = json.load(f)

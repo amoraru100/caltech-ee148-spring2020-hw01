@@ -152,7 +152,7 @@ def detect_red_light(I,k,threshold = 0.95):
 path = os.getcwd()
 
 # set the path to the downloaded data: 
-data_path = path + '\\data\\RedLights2011_Medium'
+data_path = 'C:\\Users\\amora\\Documents\\Caltech\\EE 148\\HW1\\RedLights2011_Medium'
 
 # set a path for saving predictions: 
 preds_path = path + '\\data\\hw01_preds' 
