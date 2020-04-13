@@ -1,5 +1,6 @@
 import os
 import numpy as np
+from pathlib import Path
 import json
 from PIL import Image
 
@@ -152,10 +153,10 @@ def detect_red_light(I,k,threshold = 0.95):
 path = os.getcwd()
 
 # set the path to the downloaded data: 
-data_path = 'C:\\Users\\amora\\Documents\\Caltech\\EE 148\\HW1\\RedLights2011_Medium'
+data_path = r'C:\Users\amora\Documents\Caltech\EE 148\HW1\data\RedLights2011_Medium'
 
 # set a path for saving predictions: 
-preds_path = path + '\\data\\hw01_preds' 
+preds_path = path + '\\hw01_preds' 
 os.makedirs(preds_path,exist_ok=True) # create directory if needed 
 
 # get sorted list of files: 

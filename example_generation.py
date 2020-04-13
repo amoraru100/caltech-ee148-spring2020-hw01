@@ -31,7 +31,7 @@ def add_bounding_boxes(I, bounding_boxes):
 path = os.getcwd()
 
 # set the path to the downloaded data: 
-data_path = 'C:\\Users\\amora\\Documents\\Caltech\\EE 148\\HW1\\data\\RedLights2011_Medium'
+data_path = r'C:\Users\amora\Documents\Caltech\EE 148\HW1\data\RedLights2011_Medium'
 
 # set the path to the predictions: 
 preds_path = path + '\\hw01_preds' 
